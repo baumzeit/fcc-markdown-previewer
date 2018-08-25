@@ -1,0 +1,71 @@
+:root {
+	--border: 35px solid white;
+}
+body {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+h1 {
+	font-size: 26px;
+}
+pre {
+	background-color: white;
+}
+code {
+	background-color: white;
+}
+table {
+   	border-collapse: collapse;
+}
+td, th {
+	border: 2px solid #AAA;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.App {
+	display: flex;
+	height: 100%;
+}
+.window {
+	box-sizing: border-box;
+	border-top: var(--border);
+	border-bottom: var(--border);
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+.window.small {
+	border-left: var(--border);
+	border-right: 6px solid white;
+	flex: 2;
+}
+.window.large {
+	border-right: var(--border);
+	flex: 3;
+	overflow: auto;
+}
+.header {
+	font-size: 14px;
+	padding: 10px;
+}
+#preview {
+	padding: 20px;
+}
+textarea {
+	flex-grow: 1;
+	width: 100%;
+	padding: 20px;
+	margin: 0;
+	border: none;
+	resize: none;
+	outline: none;
+	overflow: auto;
+	box-sizing: border-box;
+}
