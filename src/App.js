@@ -38,9 +38,6 @@ class App extends Component {
 }
 
 class Editor extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <section className="window small">
