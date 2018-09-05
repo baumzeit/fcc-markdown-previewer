@@ -42,11 +42,11 @@ class Editor extends Component {
     return (
       <section className="window small">
         <div className="header">Editor</div>
-          <textarea
-            id="editor"
-            value={this.props.input}
-            onChange={this.props.handleChange}
-          />
+        <textarea
+          id="editor"
+          value={this.props.input}
+          onChange={this.props.handleChange}
+        />
       </section>
     );
   }
