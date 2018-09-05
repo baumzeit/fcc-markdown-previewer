@@ -50,7 +50,7 @@ td, th {
 	border-right: var(--border);
 	flex: 3;
 }
-.header {
+header {
 	font-size: 14px;
 	padding: 10px;
 }

@@ -41,7 +41,7 @@ class Editor extends Component {
   render() {
     return (
       <section className="window small">
-        <div className="header">Editor</div>
+        <header>Editor</header>
         <textarea
           id="editor"
           value={this.props.input}
@@ -64,7 +64,7 @@ class Previewer extends Component {
   render() {
     return (
       <section className="window large">
-        <div className="header">Previewer</div>
+        <header>Previewer</header>
         <div id="preview" dangerouslySetInnerHTML={this.getMarkdownText()} />
       </section>
     );
